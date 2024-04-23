@@ -1,0 +1,40 @@
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: hsl(0, 0%, 98%);
+    background-image: url(../../images/bg-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 150% 140%;
+    width: 100%;
+    height: 78vh;
+}
+
+.intro-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    height: 100%;
+}
+
+.intro .info{
+    width: 450px;
+}
+
+.intro .title {
+    color: hsl(233, 26%, 24%);
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.intro .description{
+    color: hsl(233, 8%, 62%);
+    margin-bottom: 50px;
+}
+
+.intro img{
+    transform: translate(270px, -80px);
+}
