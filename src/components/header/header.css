@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    padding: 30px 0;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.nav-link {
+    color: hsl(233, 8%, 62%);
+    font-size: 16px;
+    transition: 0.3s ease-in;
+}
+
+.nav-link a {
+    position: relative;
+}
+
+.nav-link a::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    left: 0;
+    bottom: -46px;
+    width: 0;
+    background: rgb(49, 211, 92);
+    background: linear-gradient(90deg, rgba(49, 211, 92, 1) 0%, rgba(43, 183, 218, 1) 100%);
+    transition: width 0.2s;
+}
+
+.nav-link a:hover::after {
+    width: 100%;
+}

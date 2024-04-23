@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 
 a {
@@ -19,6 +18,7 @@ li {
 body {
     font-family: "Public Sans", sans-serif;
     font-size: 18px;
+    overflow-x: hidden;
 }
 
 .container {
@@ -27,4 +27,18 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
+}
+
+.request {
+    background: rgb(49, 211, 92);
+    background: linear-gradient(90deg, rgba(49, 211, 92, 1) 0%, rgba(43, 183, 218, 1) 100%);
+    padding: 15px 30px;
+    border-radius: 30px;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    transition: 0.3s ease-in;
+}
+
+.request:hover{
+    opacity: 70%;
 }
