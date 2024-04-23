@@ -66,3 +66,42 @@
     color: hsl(233, 8%, 62%);
     margin-top: 10px;
 }
+
+@media(max-width:1500px){
+    .articles-content{
+        width: 90vw;
+    }
+}
+
+@media(max-width:1200px){
+    .articles-content{
+        width: 60vw;
+    }
+
+    .articles-section .articles{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        gap: 30px;
+    }
+}
+
+@media(max-width:800px){
+    .articles-content{
+        width: 90vw;
+    }
+}
+
+@media(max-width:500px){
+    .articles-content{
+        align-items: center;
+    }
+
+    .articles-section .articles{
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(4, auto);
+        justify-content: center;
+        gap: 20px;
+    }
+}
