@@ -1,5 +1,7 @@
 import React from "react";
-import logo from '../../images/logo.svg'
+import logoDark from '../../images/logo-dark.svg'
+
+import './footer.css'
 
 const Footer = () => {
     return (
@@ -7,7 +9,7 @@ const Footer = () => {
             <div className="footer-content">
                 <div className="logo-social">
                     <a href="/">
-                        <img src={logo} alt="logo"></img>
+                        <img src={logoDark} alt="logo"></img>
                     </a>
 
                     <ul className="social">
