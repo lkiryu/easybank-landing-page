@@ -21,6 +21,7 @@
 
 .nav-link a {
     position: relative;
+    transition: 0.3s ease-in;
 }
 
 .nav-link a::after {
@@ -33,6 +34,10 @@
     background: rgb(49, 211, 92);
     background: linear-gradient(90deg, rgba(49, 211, 92, 1) 0%, rgba(43, 183, 218, 1) 100%);
     transition: width 0.2s;
+}
+
+.nav-link a:hover{
+    color: hsl(233, 26%, 24%);
 }
 
 .nav-link a:hover::after {
