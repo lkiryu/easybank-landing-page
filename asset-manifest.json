@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/easybank-landing-page/static/css/main.5d74e1f9.css",
+    "main.js": "/easybank-landing-page/static/js/main.152ab848.js",
+    "static/media/image-mockups.png": "/easybank-landing-page/static/media/image-mockups.48d35b175fe3d36de4ee.png",
+    "static/media/logo-dark.svg": "/easybank-landing-page/static/media/logo-dark.fb10d5ecbb609f840bfbccd25c59e337.svg",
+    "static/media/logo.svg": "/easybank-landing-page/static/media/logo.4d7cebc59950e27d6f943b4c63129d81.svg",
+    "static/media/bg-intro-desktop.svg": "/easybank-landing-page/static/media/bg-intro-desktop.8be308fd4ce79bd32a09.svg",
+    "static/media/bg-intro-mobile.svg": "/easybank-landing-page/static/media/bg-intro-mobile.c2ed38d05001e62c1c09.svg",
+    "index.html": "/easybank-landing-page/index.html",
+    "main.5d74e1f9.css.map": "/easybank-landing-page/static/css/main.5d74e1f9.css.map",
+    "main.152ab848.js.map": "/easybank-landing-page/static/js/main.152ab848.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d74e1f9.css",
+    "static/js/main.152ab848.js"
+  ]
+}
