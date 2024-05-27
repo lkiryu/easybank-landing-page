@@ -20,53 +20,6 @@
     margin-bottom: 60px;
 }
 
-.articles-section .articles{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-}
-
-.article{
-    width: 300px;
-    background-color: hsl(0, 0%, 100%);
-    border-radius: 10px;
-    box-shadow: 0 0 5px 1px hsl(0, 0%, 90%);
-}
-
-.article .info{
-    padding: 30px 25px;
-}
-
-.articles-section img{
-    width: 300px;
-    height: 200px;
-    border-radius: 10px 10px 0 0;
-}
-
-.article-author{
-    font-size: 12px;
-    margin-bottom: 10px;
-    color: hsl(233, 8%, 62%);
-}
-
-.article-title{
-    font-size: 19px;
-    font-weight: 400;
-    color: hsl(233, 26%, 24%);
-    transition: 0.3s ease-in;
-}
-
-.article-title:hover{
-    color: hsl(136, 65%, 51%);
-}
-
-.article-description{
-    font-size: 15px;
-    color: hsl(233, 8%, 62%);
-    margin-top: 10px;
-}
-
 @media(max-width:1500px){
     .articles-content{
         width: 90vw;
