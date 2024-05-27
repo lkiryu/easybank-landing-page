@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./aboutInfo.css"
+
 const AboutInfo = (prop) => {
     return (
         <div className="info">

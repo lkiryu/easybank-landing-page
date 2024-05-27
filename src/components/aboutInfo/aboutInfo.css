@@ -1,0 +1,39 @@
+.about .info{
+    width: 295px;
+}
+
+.about img{
+    margin-bottom: 30px;
+}
+
+.about .info-title{
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: hsl(233, 26%, 24%);
+}
+
+.about .info-description{
+    color: hsl(233, 8%, 62%);
+    line-height: 26px;
+}
+
+@media(max-width:1200px){
+    .about .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about .info-description{
+        text-align: center;
+    }
+
+    .about .infos{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        gap: 20px;
+    }
+}
